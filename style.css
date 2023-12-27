@@ -40,7 +40,7 @@ a{
 	flex: 1;
 }
 
-.first{
+.content .first{
 	display: flex;
 	justify-content: center;
 	margin: 48px 15%;
@@ -91,17 +91,59 @@ a{
 	padding: 40px;
 	flex: 1;
 }
-.second{
+.content .second{
 	background-color: white;
 	color: black;
 }
 
-.third{
+.content .third{
 	background-color: lightgray;
 	font-size: 36px;
 	color: gray;
 	font-style: italic;
 	padding: 20px 25%;
+}
+
+.content .forth{
+
+}
+
+.random-information{
+	font-weight: bold;
+}
+
+.boxes{
+	display: flex;
+	justify-content: space-around;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+.info-box{
+	display: flex;
+	flex-direction: column;
+	margin: 20px 20px;
+	max-width: 250px;
+	height: 250px;
+}
+
+.box{
+	display: flex;
+	flex: 2;
+	justify-content: center;
+	align-items: center;
+	border: 4px;
+	border-radius: 24px;
+	border-style: solid;
+	border-color: #3882F6;
+}
+
+.info-box .subtext{
+	display: flex;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 18px;
+	color: #E5E7EB
 }
 
 .author{
