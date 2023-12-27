@@ -87,12 +87,12 @@ a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: white;
+	color: #F9FAF8;
 	padding: 40px;
 	flex: 1;
 }
 .content .second{
-	background-color: white;
+	background-color: #F9FAF8;
 	color: black;
 }
 
@@ -144,17 +144,61 @@ a{
 	padding: 8% 20%;
 }
 
-.popup-ad{
-	background-color: white;
+.fourth{
+	padding: 100px 200px;
+	display: flex;
+	justify-content: center;
+	background-color: #F9FAF8;
 	color: black;
 }
 
+.fourth .popup-ad{
+	color: #F9FAF8;
+	display: flex;
+	justify-content: space-between;
+	background-color: #3882F6;
+	padding: 30px 80px;
+	border-radius: 15px;
+}
+
+.popup-ad .left{
+	flex: 1;
+	margin-right: 50px;
+	display: flex;
+	flex-direction: column;
+}
+
+.popup-ad .left .title{
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.popup-ad .right{
+	display: flex;
+	margin-left: 20px;
+	border: 3px;
+	border-color: #F9FAF8;
+	border-radius: 15px;
+	border-style: solid;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.signup-button2{
+	text-align: center;
+	padding: 10px 20px;
+	font-weight: bold;
+
+}
 
 .author{
 	color: black;
 	float: right;
 	font-weight: bold;
 }
+
+
 
 .footer{
 	text-align: center;
