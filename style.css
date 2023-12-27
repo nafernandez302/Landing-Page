@@ -1,8 +1,9 @@
 body{
 	height: 100vh;
-	background-color: #000033;
-	color: white;
+	background-color: #1F2937;
+	color: #F9FAF8;
 	font-family: Arial;
+	font-size: 18px;
 	display: flex;
 	flex-direction: column;
 	margin: 0px;
@@ -16,7 +17,7 @@ body{
 }
 
 .logo{
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: bold;
 }
 
@@ -40,9 +41,56 @@ a{
 }
 
 .first{
-
+	display: flex;
+	justify-content: center;
+	margin: 48px 15%;
+	padding: 30px 30px;
 }
 
+.first .left{
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	color: #F9FAF8;
+	margin-right: 24px;
+}
+
+.first .right{
+	flex: 1;
+	display: flex;
+	background-color: gray;
+}
+.first .title{
+	font-size: 48px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.first .subtext{
+	flex: 1;
+	font-size: 18px;
+	color: #E5E7EB;
+	padding-bottom: 10px;
+}
+
+.first .signup-button button{
+	border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  color: #F9FAF8;
+  font-weight: bold;
+  font-size: 14px;
+	background-color: #3882F6;
+}
+
+.first .principal-image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	padding: 40px;
+	flex: 1;
+}
 .second{
 	background-color: white;
 	color: black;
@@ -50,6 +98,7 @@ a{
 
 .third{
 	background-color: lightgray;
+	font-size: 36px;
 	color: gray;
 	font-style: italic;
 	padding: 20px 25%;
