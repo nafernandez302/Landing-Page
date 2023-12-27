@@ -2,7 +2,7 @@ body{
 	height: 100vh;
 	background-color: #1F2937;
 	color: #F9FAF8;
-	font-family: Arial;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	display: flex;
 	flex-direction: column;
@@ -96,20 +96,10 @@ a{
 	color: black;
 }
 
-.content .third{
-	background-color: lightgray;
-	font-size: 36px;
-	color: gray;
-	font-style: italic;
-	padding: 20px 25%;
-}
-
-.content .forth{
-
-}
-
 .random-information{
 	font-weight: bold;
+	font-size: 36px;
+	text-align: center;
 }
 
 .boxes{
@@ -143,8 +133,22 @@ a{
 	text-align: center;
 	margin-top: 5px;
 	font-size: 18px;
-	color: #E5E7EB
+	color: gray;
 }
+
+.content .third{
+	background-color: #E5E7EB;
+	font-size: 36px;
+	color: #1F2937;
+	font-style: italic;
+	padding: 8% 20%;
+}
+
+.popup-ad{
+	background-color: white;
+	color: black;
+}
+
 
 .author{
 	color: black;
